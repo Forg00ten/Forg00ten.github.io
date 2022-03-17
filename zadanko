@@ -1,0 +1,24 @@
+def plik(plik):
+    liczby=list()
+    with open(plik) as f:
+        liczby=f.readlines()
+    return liczby
+def usun_bs(liczby):
+    liczby_s = list()
+    for i in range(0, len(liczby)):
+        liczby_s.append(liczby[i].strip())
+    return liczby_s
+
+def parzyste(liczby):
+    tmp = 0
+    for x in range(len(liczby)):
+        last_char = liczby[x][len(liczby[x])-1]
+#        print(last_char)
+        if int(last_char)==0:
+            tmp += 1
+    print(tmp)
+
+if __name__ == "__main__":
+    liczby = plik("liczby.txt")
+    liczby = usun_bs(liczby)
+    parzyste(liczby)
