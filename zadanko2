@@ -1,0 +1,52 @@
+def plik(plik):
+    dane=list()
+    with open(plik) as f:
+        dane=f.readlines()
+    return dane
+def usun_bs(dane):
+    dane_s = list()
+    for i in range(0, len(dane)):
+        dane_s.append(dane[i].strip())
+    return dane_s
+
+def rownosc(dane):
+    tmp = 0
+    for x in range(len(dane)):
+        if dane[x][0] == dane[x][len(dane[x])-1]:
+            tmp += 1
+    print("Tyle jest liczb spełniających warunek", tmp)
+
+def rownosc2(dane):
+    b = 0
+    for x in range(len(dane)):
+        a = int(dane[x], 8)
+        a = str(a)
+        if a[0] == a[-1]:
+            b += 1
+#        print(a)
+    print(b)
+
+def warunek(dane):
+
+    for x in range(len(dane)):
+        d = 0
+        e = 1
+        f = 0
+        for x in range(len(dane[x])):
+            c = dane[x]
+            if c[d] <= c[e]:
+                f += 1
+    print(f)
+
+if __name__ == "__main__":
+    dane = plik("dane.txt")
+    dane = usun_bs(dane)
+
+    print("Podpukt a: ")
+    rownosc(dane)
+
+    print("Podpunkt b: ")
+    rownosc2(dane)
+
+    print("Podpunkt c: ")
+    warunek(dane)
