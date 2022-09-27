@@ -1,0 +1,21 @@
+p
+{
+    width: 300px;
+    background-color: white;
+    border: 35px solid red;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.koło
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 60%;
+    background-color: white;
+    border:35px solid red;
+
+    
+}
