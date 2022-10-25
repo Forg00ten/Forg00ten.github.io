@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Miernik jakości hasła</title>
+        <link rel="stylesheet" href="zadanie15.css">
+    </head>
+    <body>
+        <a href="index.html"><h2>Strona Główna</h2></a>
+        <header>
+            <h1>
+                <a href="index.html">Sprawdź swoje hasło </a> 
+            </h1>
+        </header>
+        <nav>
+            <h2>Wybierz</h2>
+            <ol>
+                <li><a href="zadanie15haslo.html">Sprawdź hasło</a></li>
+                <li><a href="https://www.zikom.com.pl/bezpieczne-hasla/">Zasady tworzenia hasła</a></li>
+            </ol>
+        </nav>
+        <main>
+                <label>Sprawdź swoje hasło</label><br>
+                <input type="password"><br><br>
+                <button onclick="myFunction()">Sprawdź</button>
+            
+            
+            <p id="tekst"></p>
+        <script>
+            function myFunction() 
+            {
+                document.getElementById("tekst").innerHTML = "Aby sprawdzić hasło wejdź na stronę //password.kaspersky.com/pl/";
+            }
+        </script>
+
+        </main>
+        <footer>
+            <h3>Miernik jakości hasła</h3>
+            <p>Stronę opracował: Piotr Zdebik 4D5</p>
+        </footer>
+    </body>
+    </html>
