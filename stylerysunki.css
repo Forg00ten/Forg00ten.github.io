@@ -1,0 +1,78 @@
+
+header
+{
+    width: 100%;
+    background-color: rgb(186, 243, 186);
+    text-align: center;
+}
+
+h1
+{
+    margin: 0;
+    padding: 40px 0;
+    color: rgb(156, 62, 62);
+}
+
+.left
+{
+    background-color: gray;
+    float:left;
+    height: 80%;
+    width: 25%;
+}
+
+.right
+{
+    float: left;
+    text-align: center;
+    width: 75%;
+    height: 80%;
+    clear: right;
+    background-color: white;
+}
+
+a
+{   
+    font-size: 25px;
+    font-weight: 900;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    color: rgb(156, 62, 62);
+    text-decoration: none;
+}
+
+.slimak
+{   
+    padding: 15px;
+    text-align: center;
+    margin: 25px 65px;
+    border:5px outset rgb(255, 153, 37);
+    background-color: white;
+}
+
+.zaby
+{   
+    padding: 15px;
+    text-align: center;
+    margin: 80px 65px;
+    border:5px outset rgb(255, 153, 37);
+    background-color: white;
+}
+
+.ryby
+{   
+    padding: 15px;
+    text-align: center;
+    margin: 25px 65px;
+    border:5px outset rgb(255, 153, 37);
+    background-color: white;
+}
+
+footer
+{
+    clear: left;
+    text-align: right;
+    padding: 10px;
+    background-color: greenyellow;
+}
