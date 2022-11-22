@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.strona
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.strona:hover
+{
+    color: royalblue;
+}
+
+.strona > a
+{
+    text-decoration: none;
+    text-shadow: 3px 3px 3px black;
+    color: aliceblue;
+}
+
+a:hover
+{
+    color: royalblue;
+}
+
+header
+{
+    background-color: #F18805;
+    height: 100px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+nav
+{
+    background-color: #FFBF40;
+    height: 50px;
+    width: 100%;
+    float: left;
+}
+main
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 400px;
+    width: 100%;
+    float: left;
+}
+footer
+{
+    background-color: #FFBF40;
+    height: 50px;
+    clear: both;
+    text-align: right;
+}
+
+p
+{
+    padding-top: 17px;
+    padding-right: 20px;
+}
+
+h1
+{
+    color:#FFF700;
+    font-weight: normal;
+}
+
+.oferta::after
+{
+    color: black;
+    content: "tel: 745 180 631 e-mail: mors@wp.pl";
+    width: 250px;
+    position: absolute;
+    top:40px;
+    left:-15px;
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 25px;
+    border:2px dashed royalblue;
+    opacity: 0;
+    transition: 0.8s;
+
+}
+
+.oferta:hover::after
+{
+    z-index: 1;
+    opacity: 1;
+}
+
+.oferta
+{
+    position: relative;
+    margin: 7px 20px;
+    font-weight: bold;
+    color: white;
+    background-color: orangered;
+    padding: 2px;
+    width: fit-content;
+    border: 5px solid #FFF700;
+}
