@@ -44,5 +44,9 @@ a
     height: 100%;
     color: black;
     text-decoration: none;
-    margin-top: 72.5px;
+}
+
+p
+{
+    margin-top:37px;
 }
