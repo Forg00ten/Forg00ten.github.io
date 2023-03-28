@@ -1,0 +1,36 @@
+
+body {
+    background-color: #F7D9CA;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 50px;
+}
+
+p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 30px auto;
+    max-width: 600px;
+}
+
+img {
+    display: block;
+    margin: 50px auto;
+    max-width: 100%;
+}
+
+.wesolego {
+    display: inline-block;
+    background-color: #E6B8B1;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 40px;
+    margin-top: 30px;
+}
