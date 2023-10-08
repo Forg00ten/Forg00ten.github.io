@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+p
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main
+{
+    background-color: gray;
+    text-align: center;
+}
+.meski
+{
+    width: 50vw;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.damski
+{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+}
+
+img
+{
+    height: 700px;
+    width: 400px;
+}
